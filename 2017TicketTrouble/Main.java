@@ -7,7 +7,7 @@ public class Main
 
   public static void main(String[] args)
   {
-    String filename = "C:\\Users\\natal\\Documents\\GitHub\\googleIOCodeJamChallenges\\2017TicketTrouble\\A-large-practice.in";
+    String filename = "C:\\Users\\natal\\Documents\\GitHub\\googleIOCodeJamChallenges\\2017TicketTrouble\\A-large-practice.in"; 
     String outputFile = "ticketTroubleOutput.txt";
     File file = new File(filename);
     PrintWriter writer = createPrintWriter(outputFile);
